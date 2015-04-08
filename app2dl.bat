@@ -49,7 +49,6 @@ set plch=%plch:AM=am%
 set plch=%plch:PM=pm%
 set myvar=%myvar%%plch%
 echo %myvar%
-pause
 
 xcopy /E application.windows64 ..\Download\%myvar%\64\
 xcopy /E application.windows32 ..\Download\%myvar%\32\
